@@ -10,6 +10,11 @@ import ModalTest from './components/modal popup/modal-test';
 import TicTacToe from './components/tic-tac-toe';
 import QRCodeGenerator from './components/qr-code-gen';
 import ScrollTopAndBottom from './components/scroll-to-top-bottom';
+import ScrollToSection from './components/scroll-to-particular-section';
+import GithubProfileFinder from './components/github-profile-finder';
+import SearchAutocomplete from './components/autocomplete';
+import TreeView from './components/navigation menu';
+import ScrollIndicator from './components/scroll indicator';
 
 function App() {
   return (
@@ -25,7 +30,11 @@ function App() {
       {/* <TicTacToe/> */}
       {/* <QRCodeGenerator/> */}
       {/* <ScrollTopAndBottom/> */}
-
+      {/* <ScrollToSection/> */}
+      {/* <GithubProfileFinder/> */}
+      {/* <SearchAutocomplete/> */}
+      {/* <TreeView/> */}
+      {/* <ScrollIndicator/> */}
     </div>
   );
 }
